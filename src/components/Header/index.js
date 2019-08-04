@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Container from './styles.js';
+import { Container } from './styles.js';
 
 export default function Header() {
   return (  
