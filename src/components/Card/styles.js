@@ -6,9 +6,19 @@ export const Container = styled.div`
   border-radius: 4px;
   margin-bottom: 10px;
   padding: 15px;
+  box-shadow: 0 1px 4px rgba(192, 208, 230, 0.8);
+  border-top: 20px solid rgba(230, 236, 245, 0.4);
+  cursor: grab;
 
   header {
     position: absolute;
+    top: -22px;
+    left: 15px;
+  }
+  
+  p {
+    font-weight: 500;
+    line-height: 20px;
   }
 
   img {
@@ -21,5 +31,9 @@ export const Container = styled.div`
 
 
 export const Label = styled.div`
-
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-top: 5px;
+  background: ${props => props.color};
 `;
