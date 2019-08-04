@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
-
+export const Container = styled.div`
+  padding: 0 15px;
+  height: 100%;
+  flex: 0 0 320px;
 `;
-
-export default Container
